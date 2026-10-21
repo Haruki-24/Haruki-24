@@ -10,7 +10,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gonzalocostela)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gonzalocostela@gmail.com)
 [![CV](https://img.shields.io/badge/CV_Online-4CAF50?style=for-the-badge&logo=google-chrome&logoColor=white)](https://haruki-24.github.io/CV_Costela/)
-[![Location](https://img.shields.io/badge/Mendoza,_Argentina-FF6B6B?style=for-the-badge&logo=google-maps&logoColor=white)](#)
+[![Location](https://img.shields.io/badge/Guadalajara,_Mexico-FF6B6B?style=for-the-badge&logo=google-maps&logoColor=white)](#)
 [![Open to](https://img.shields.io/badge/Remoto-AR_%7C_MX-2E9EF7?style=for-the-badge&logo=google-chrome&logoColor=white)](#)
 
 </div>
@@ -18,7 +18,7 @@
 
 ## 🚀 Sobre mí
 
-> *"No vengo del mundo tech. Vengo del campo petrolero, donde un error de diseño puede costar un pozo. Eso me enseñó a construir sistemas que funcionan bajo presión."*
+> *"Vengo del campo petrolero, donde un error no solo cuesta dinero: también puede costar vidas. Eso me enseñó a priorizar la seguridad y a construir procesos que resistan la presión."*
 
 **Soy AI Engineer con una base poco común.** En 2015 entré a PCP Oil Tools (adquirida por Dover, luego Apergy y finalmente ChampionX, hoy parte de SLB) como asistente administrativo; en 2020 ya era **Ingeniero de Aplicaciones y Especialista en Sistemas PCP (ALS) en ChampionX**. En 2021 asumí además la **responsabilidad operativa completa de la base de Santa Cruz, con personal a cargo**, sin dejar de lado la ingeniería de aplicaciones. En ese rol lideré la logística de la base y brindé soporte técnico al resto del país, validando diseños con software industrial (PC-Pump/C-FER, Rodstar) y coordinando con expertos de marca (OLT).
 
@@ -29,7 +29,8 @@
 - 🔭 **Actualmente:** simulador de bombas PCP en Rust (privado) + programación lineal con Gurobi + agentes.
 - 🌱 **Aprendiendo:** optimización matemática aplicada a operaciones y agentes.
 - 💬 **Pregúntame sobre:** RAG, LangGraph, XGBoost/CatBoost, GCP, Firebase, Oil & Gas, PCP/ALS.
-- 🎯 **Buscando:** roles remotos de **AI Engineering / Data Science / ML Engineering** en Argentina (Mendoza, Buenos Aires, Santa Cruz, Neuquén) o México (Guadalajara, CDMX).
+- 🎯 **Buscando:** roles remotos de **AI Engineering / Data Science / ML Engineering**
+- 📍 **Locación** México (Guadalajara, CDMX), en Argentina (Mendoza, Buenos Aires, Santa Cruz, Neuquén)
 
 ---
 
@@ -173,8 +174,6 @@ timeline
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gonzalocostela)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gonzalocostela@gmail.com)
 [![CV](https://img.shields.io/badge/CV_Online-4CAF50?style=for-the-badge&logo=google-chrome&logoColor=white)](https://haruki-24.github.io/CV_Costela/)
-
-📍 Mendoza, Argentina · Abierto a remoto (AR/MX)
 
 *"La mejora continua no es una metodología, es una forma de vida."*
 
