@@ -20,17 +20,15 @@
 
 > *"Vengo del campo petrolero, donde un error no solo cuesta dinero: también puede costar vidas. Eso me enseñó a priorizar la seguridad y a construir procesos que resistan la presión."*
 
-**Soy AI Engineer con una base poco común.** En 2015 entré a PCP Oil Tools (adquirida por Dover, luego Apergy y finalmente ChampionX, hoy parte de SLB) como asistente administrativo; en 2020 ya era **Ingeniero de Aplicaciones y Especialista en Sistemas PCP (ALS) en ChampionX**. En 2021 asumí además la **responsabilidad operativa completa de la base de Santa Cruz, con personal a cargo**, sin dejar de lado la ingeniería de aplicaciones. En ese rol lideré la logística de la base y brindé soporte técnico al resto del país, validando diseños con software industrial (PC-Pump/C-FER, Rodstar) y coordinando con expertos de marca (OLT).
+**AI Engineer con base en operaciones críticas.** Pasé de asistente administrativo a Ingeniero de Aplicaciones y Especialista en Sistemas PCP (ALS) en ChampionX, liderando la base operativa de Santa Cruz y dando soporte técnico a todo el país. 
+En 2023 decidí reinventarme: retomé uno de mis sueños y me mudé a Japón, donde viví un año y absorbí la cultura de la mejora continua (Kaizen).
+Con esa mentalidad, en 2025 inicié mi transición formal a IT, certificándome en OCI Foundations (2025) y OCI AI Foundations (2026). Esa misma determinación me llevó a mi rol actual como **Business Analyst en Regalos Estefanía**, donde hoy aplico análisis de datos, optimización de procesos y automatización.
 
-**En 2023, una crisis personal me obligó a reinventarme.** Retomé un sueño pendiente: me fui a Japón sin saber el idioma y viví un año allí, con la posibilidad de trabajar en Tokio, Osaka y Niseko. Esa experiencia me enseñó **adaptabilidad y resiliencia reales**, y me sumergió en la cultura de la **mejora continua (Kaizen)** y la obsesión por la calidad. Aprendí que la excelencia no se improvisa: se construye con criterio, escucha y disciplina diaria.
+Aporto algo que un junior no tiene: **criterio de negocio, experiencia en operaciones críticas y mentalidad de mejora continua aplicada al código.**
 
-**Hoy aplico todo eso al mundo IT.** En 2025 inicié mi transición formal, completando la formación **Data Scientist de Oracle Next Education (Alura + Oracle)** y certificándome en **OCI Foundations (2025)** y **OCI AI Foundations (2026)**. Hoy construyo **agentes de IA, pipelines RAG y modelos de ML**, con capacidad de llevarlos a **producción en la nube (GCP/OCI)**. Aporto algo que un junior no tiene: **criterio de negocio, experiencia en operaciones críticas y mentalidad de mejora continua aplicada al código**. Busco roles remotos de **AI / Data / ML Engineering** en Argentina (Mendoza, Buenos Aires, Santa Cruz, Neuquén) o México (Guadalajara, CDMX).
-
-- 🔭 **Actualmente:** simulador de bombas PCP en Rust (privado) + programación lineal con Gurobi + agentes.
-- 🌱 **Aprendiendo:** optimización matemática aplicada a operaciones y agentes.
-- 💬 **Pregúntame sobre:** RAG, LangGraph, XGBoost/CatBoost, GCP, Firebase, Oil & Gas, PCP/ALS.
-- 🎯 **Buscando:** roles remotos de **AI Engineering / Data Science / ML Engineering**
-- 📍 **Locación** México (Guadalajara, CDMX), en Argentina (Mendoza, Buenos Aires, Santa Cruz, Neuquén)
+- 🔭 **Actualmente:** simulador PCP en Rust (privado) + programación lineal con Gurobi + agentes.
+- 💬 **Pregúntame sobre:** RAG, LangGraph, Oil & Gas, PCP/ALS.
+- 🎯 **Buscando:** roles remotos de **AI / Data / ML Engineering** en Argentina (Mendoza, Buenos Aires, Santa Cruz, Neuquén) o México (Guadalajara, CDMX).
 
 ---
 
