@@ -103,7 +103,7 @@ Variante de ajedrez 10x10 con mecánica shogi. Diseñé el **sistema de reglas**
 ### 📊 Krypton — Predicción de Cancelación de Clientes (ML + Cloud)
 Proyecto colaborativo (NoCountry). Responsable del **modelado de doble capa (XGBoost + CatBoost)** para predecir probabilidad de cancelación y motivos, optimizando **recall de 70% → 85%**. Diseñé también la **arquitectura en GCP** (Compute Engine, Load Balancers, buckets) con aplicaciones contenerizadas.  
 **Stack:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-2C8EBB?style=flat-square&logo=xgboost&logoColor=white) ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square&logo=catboost&logoColor=black) ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)  
-📄 Documentación técnica disponible bajo solicitud.
+🔗 [Repo](https://github.com/Haruki-24/Krypton-churninsight-ml-engine)
 
 ### 🏪 Plataforma ERP/POS Omnicanal — MC8 & Princess Fanny *(en producción)*
 Sistema integral en producción (React + TypeScript + Firebase) con storefront multi-marca, POS, mesa de cobranza, WMS, logística, inventario con auditoría, CMS y **RBAC de 6 roles**. Diseñado para operar en **Firebase Spark Plan** (+3,000 SKUs, 50k lecturas/día) mediante **caché en 3 niveles**, **índice de búsqueda compilado (~200 KB)** y transacciones atómicas.  
