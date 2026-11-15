@@ -158,8 +158,8 @@ timeline
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Haruki-24&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Haruki-24&layout=compact&theme=tokyonight&hide_border=true)
+![GitHub Stats](./profile/stats.svg)
+![Top Langs](./profile/top-langs.svg)
 
 </div>
 
