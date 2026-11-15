@@ -159,7 +159,7 @@ timeline
 <div align="center">
 
 ![GitHub Stats](./profile/stats.svg)
-![Top Langs](./profile/top-langs.svg)
+![Custom Code Stats](./profile/custom-stats.svg)
 ![GitHub Streak](./profile/streak.svg)
 
 </div>
