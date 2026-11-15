@@ -2,8 +2,8 @@ name: Update README cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *" 
+  workflow_dispatch: # Ejecucion manual
 
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Genera tarjeta de Estadísticas (Agregué compact para que se vea más pro)
+      # 1. Tarjeta de Estadísticas
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -23,7 +23,7 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.STATS_TOKEN }}
 
-      # Genera tarjeta de Lenguajes (Agregué hide=jupyter para que resalte TS y Python)
+      # 2. Tarjeta de Lenguajes
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -32,7 +32,12 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.STATS_TOKEN }}
 
-      # Guarda los cambios
+      # 3. Tarjeta de Racha (Streak)
+      - name: Download Streak Stats
+        run: |
+          curl -s -o profile/streak.svg "https://streak-stats.demolab.com?user=Haruki-24&theme=tokyonight&hide_border=true&background=1A1B27"
+
+      # 4. Actualizacion
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
