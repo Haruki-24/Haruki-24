@@ -160,6 +160,7 @@ timeline
 
 ![GitHub Stats](./profile/stats.svg)
 ![Top Langs](./profile/top-langs.svg)
+![GitHub Streak](./profile/streak.svg)
 
 </div>
 
