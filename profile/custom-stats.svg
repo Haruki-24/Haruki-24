@@ -2,34 +2,34 @@
     <rect width="550" height="200" fill="#1A202C" rx="10" />
     <text x="20" y="30" fill="#63B3ED" font-family="sans-serif" font-size="16" font-weight="bold">Real Code Stats (Count + Size)</text>
     
-        <text x="20" y="50" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="bold">TypeScript</text>
+        <text x="20" y="50" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="bold">Python (+Jupyter)</text>
         <rect x="170" y="38" width="180" height="12" fill="#2D3748" rx="6" />
-        <rect x="170" y="38" width="77.67617726378272" height="12" fill="#3178C6" rx="6" />
-        <text x="360" y="50" fill="#A0AEC0" font-family="sans-serif" font-size="12" font-weight="bold">43.2%</text>
-        <text x="410" y="50" fill="#718096" font-family="sans-serif" font-size="10">C: 56.4% | S: 12.2%</text>
+        <rect x="170" y="38" width="85.8867548177089" height="12" fill="#4FD1C5" rx="6" />
+        <text x="360" y="50" fill="#A0AEC0" font-family="sans-serif" font-size="12" font-weight="bold">47.7%</text>
+        <text x="410" y="50" fill="#718096" font-family="sans-serif" font-size="10">C: 12.2% | S: 83.3%</text>
         
-        <text x="20" y="78" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="bold">Python (+Jupyter)</text>
+        <text x="20" y="78" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="bold">TypeScript</text>
         <rect x="170" y="66" width="180" height="12" fill="#2D3748" rx="6" />
-        <rect x="170" y="66" width="60.30128365985611" height="12" fill="#4FD1C5" rx="6" />
-        <text x="360" y="78" fill="#A0AEC0" font-family="sans-serif" font-size="12" font-weight="bold">33.5%</text>
-        <text x="410" y="78" fill="#718096" font-family="sans-serif" font-size="10">C: 12.2% | S: 83.3%</text>
+        <rect x="170" y="66" width="61.76798774733018" height="12" fill="#3178C6" rx="6" />
+        <text x="360" y="78" fill="#A0AEC0" font-family="sans-serif" font-size="12" font-weight="bold">34.3%</text>
+        <text x="410" y="78" fill="#718096" font-family="sans-serif" font-size="10">C: 56.4% | S: 12.2%</text>
         
         <text x="20" y="106" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="bold">JavaScript</text>
         <rect x="170" y="94" width="180" height="12" fill="#2D3748" rx="6" />
-        <rect x="170" y="94" width="19.810082706381277" height="12" fill="#F1E05A" rx="6" />
-        <text x="360" y="106" fill="#A0AEC0" font-family="sans-serif" font-size="12" font-weight="bold">11.0%</text>
+        <rect x="170" y="94" width="15.324496818327765" height="12" fill="#F1E05A" rx="6" />
+        <text x="360" y="106" fill="#A0AEC0" font-family="sans-serif" font-size="12" font-weight="bold">8.5%</text>
         <text x="410" y="106" fill="#718096" font-family="sans-serif" font-size="10">C: 14.7% | S: 2.3%</text>
         
         <text x="20" y="134" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="bold">HTML</text>
         <rect x="170" y="122" width="180" height="12" fill="#2D3748" rx="6" />
-        <rect x="170" y="122" width="12.051638181009066" height="12" fill="#E34C26" rx="6" />
-        <text x="360" y="134" fill="#A0AEC0" font-family="sans-serif" font-size="12" font-weight="bold">6.7%</text>
+        <rect x="170" y="122" width="9.316832865784342" height="12" fill="#E34C26" rx="6" />
+        <text x="360" y="134" fill="#A0AEC0" font-family="sans-serif" font-size="12" font-weight="bold">5.2%</text>
         <text x="410" y="134" fill="#718096" font-family="sans-serif" font-size="10">C: 9.0% | S: 1.4%</text>
         
         <text x="20" y="162" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="bold">CSS</text>
         <rect x="170" y="150" width="180" height="12" fill="#2D3748" rx="6" />
-        <rect x="170" y="150" width="10.160818188970831" height="12" fill="#563D7C" rx="6" />
-        <text x="360" y="162" fill="#A0AEC0" font-family="sans-serif" font-size="12" font-weight="bold">5.6%</text>
+        <rect x="170" y="150" width="7.703927750848821" height="12" fill="#563D7C" rx="6" />
+        <text x="360" y="162" fill="#A0AEC0" font-family="sans-serif" font-size="12" font-weight="bold">4.3%</text>
         <text x="410" y="162" fill="#718096" font-family="sans-serif" font-size="10">C: 7.7% | S: 0.9%</text>
         
     </svg>
