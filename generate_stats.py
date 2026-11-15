@@ -10,9 +10,26 @@ HEADERS = {"Authorization": f"Bearer {TOKEN}", "Accept": "application/vnd.github
 
 # Diccionario de extensiones
 EXTENSIONS = {
-    ".py": "Python", ".ipynb": "Jupyter", ".ts": "TypeScript", ".tsx": "TypeScript",
-    ".js": "JavaScript", ".html": "HTML", ".css": "CSS", ".rs": "Rust",
-    ".java": "Java", ".c": "C", ".cpp": "C++", ".sql": "SQL"
+    ".py": "Python (+Jupyter)", 
+    ".ipynb": "Python (+Jupyter)",
+    ".ts": "TypeScript", 
+    ".tsx": "TypeScript",
+    ".js": "JavaScript", 
+    ".html": "HTML", 
+    ".css": "CSS", 
+    ".rs": "Rust",
+    ".sql": "SQL",
+    ".java": "Java"
+}
+
+COLORS = {
+    "Python (incl. Jupyter)": "#FFD43B", # Amarillo Python
+    "TypeScript": "#3178C6",            # Azul TypeScript
+    "JavaScript": "#F1E05A",            # Amarillo JS
+    "HTML": "#E34C26",                  # Naranja HTML
+    "CSS": "#563D7C",                   # Morado CSS
+    "Rust": "#DEA584",                  # Marrón Rust
+    "SQL": "#E38C00"                    # Naranja SQL
 }
 
 # Ignorar 
@@ -52,18 +69,20 @@ def generate_svg(lang_stats, total_count, total_size):
         count_pct = (stats['count'] / total_count) * 100 if total_count else 0
         size_pct = (stats['size'] / total_size) * 100 if total_size else 0
         compound = stats['compound']
+
+        bar_color = COLORS.get(lang, "#4FD1C5") 
         
         rows += f"""
-        <text x="20" y="{y_offset}" fill="#E2E8F0" font-family="sans-serif" font-size="14">{lang}</text>
-        <rect x="120" y="{y_offset - 12}" width="200" height="12" fill="#2D3748" rx="6" />
-        <rect x="120" y="{y_offset - 12}" width="{compound * 2}" height="12" fill="#4FD1C5" rx="6" />
-        <text x="330" y="{y_offset}" fill="#A0AEC0" font-family="sans-serif" font-size="12">{compound:.1f}%</text>
-        <text x="390" y="{y_offset}" fill="#718096" font-family="sans-serif" font-size="10">C: {count_pct:.1f}% | S: {size_pct:.1f}%</text>
+        <text x="20" y="{y_offset}" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="bold">{lang}</text>
+        <rect x="170" y="{y_offset - 12}" width="180" height="12" fill="#2D3748" rx="6" />
+        <rect x="170" y="{y_offset - 12}" width="{compound * 1.8}" height="12" fill="{bar_color}" rx="6" />
+        <text x="360" y="{y_offset}" fill="#A0AEC0" font-family="sans-serif" font-size="12" font-weight="bold">{compound:.1f}%</text>
+        <text x="410" y="{y_offset}" fill="#718096" font-family="sans-serif" font-size="10">C: {count_pct:.1f}% | S: {size_pct:.1f}%</text>
         """
-        y_offset += 25
+        y_offset += 28
 
-    svg = f"""<svg width="500" height="{y_offset + 10}" xmlns="http://www.w3.org/2000/svg">
-    <rect width="500" height="{y_offset + 10}" fill="#1A202C" rx="10" />
+    svg = f"""<svg width="550" height="{y_offset + 10}" xmlns="http://www.w3.org/2000/svg">
+    <rect width="550" height="{y_offset + 10}" fill="#1A202C" rx="10" />
     <text x="20" y="30" fill="#63B3ED" font-family="sans-serif" font-size="16" font-weight="bold">Real Code Stats (Count + Size)</text>
     {rows}
     </svg>"""
@@ -102,7 +121,7 @@ def main():
     for lang, stats in lang_stats.items():
         count_pct = (stats['count'] / total_count) * 100 if total_count else 0
         size_pct = (stats['size'] / total_size) * 100 if total_size else 0
-        stats['compound'] = (count_pct * 0.5) + (size_pct * 0.5) # Promedio ponderado
+        stats['compound'] = (count_pct * 0.7) + (size_pct * 0.3) # Promedio ponderado
 
     generate_svg(lang_stats, total_count, total_size)
 
