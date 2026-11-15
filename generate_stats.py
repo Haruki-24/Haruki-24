@@ -121,7 +121,7 @@ def main():
     for lang, stats in lang_stats.items():
         count_pct = (stats['count'] / total_count) * 100 if total_count else 0
         size_pct = (stats['size'] / total_size) * 100 if total_size else 0
-        stats['compound'] = (count_pct * 0.5) + (size_pct * 0.5) # Promedio ponderado
+        stats['compound'] = (count_pct * 0.4) + (size_pct * 0.6) # Promedio ponderado
 
     generate_svg(lang_stats, total_count, total_size)
 
