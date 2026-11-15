@@ -14,6 +14,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Configuramos Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
       # 1. Tarjeta de Estadísticas
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
@@ -24,10 +33,11 @@ jobs:
           token: ${{ secrets.STATS_TOKEN }}
 
       # 2. Tarjeta de Lenguajes
-      - name: Download Top Languages Card
-        run: |
-          curl -s -o profile/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=Haruki-24&layout=compact&theme=tokyonight&hide_border=true&count_private=true&hide=jupyter+notebook,html,css&bg_color=1A1B27"
-
+      - name: Generate Custom Language Stats
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python generate_stats.py
+        
       # 3. Tarjeta de Racha (Streak)
       - name: Download Streak Stats
         run: |
