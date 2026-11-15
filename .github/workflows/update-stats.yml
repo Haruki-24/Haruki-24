@@ -24,13 +24,9 @@ jobs:
           token: ${{ secrets.STATS_TOKEN }}
 
       # 2. Tarjeta de Lenguajes
-      - name: Generate top languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=Haruki-24&layout=compact&theme=tokyonight&hide_border=true&count_private=true&hide=jupyter%20notebook
-          path: profile/top-langs.svg
-          token: ${{ secrets.STATS_TOKEN }}
+      - name: Download Top Languages Card
+        run: |
+          curl -s -o profile/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=Haruki-24&layout=compact&theme=tokyonight&hide_border=true&count_private=true&hide=jupyter+notebook,html,css&bg_color=1A1B27"
 
       # 3. Tarjeta de Racha (Streak)
       - name: Download Streak Stats
