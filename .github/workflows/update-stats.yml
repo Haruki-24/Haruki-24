@@ -1,0 +1,42 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Se ejecuta todos los días a medianoche
+  workflow_dispatch: # Permite ejecutarlo manualmente con un botón
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Genera la tarjeta de Estadísticas Generales
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=Haruki-24&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true
+          path: profile/stats.svg
+          token: ${{ secrets.STATS_TOKEN }}
+
+      # Genera la tarjeta de Lenguajes más usados
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=Haruki-24&layout=compact&theme=tokyonight&hide_border=true
+          path: profile/top-langs.svg
+          token: ${{ secrets.STATS_TOKEN }}
+
+      # Guarda las imágenes en tu repositorio
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions[bot]
+          author_email: github-actions[bot]@users.noreply.github.com
+          message: "Update GitHub Stats SVGs"
+          add: "profile/*.svg"
